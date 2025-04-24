@@ -79,17 +79,15 @@ export default function About() {
 
   const experiences = [
     {
-      title: 'Senior Software Engineer',
-      company: 'Tech Corp',
-      period: '2021 - Present',
-      description: 'Leading development of enterprise applications using modern technologies.',
+      title: 'Frontend Developer Intern',
+      company: 'Infimind IT Solutions',
+      period: 'Sept 2024 - Feb 2025',
+      description: [
+        'Developed and maintained responsive web interfaces using React.js HTML/CSS and Javascript, resulting in 35% improvement in user load speed and 25% increase in user engagement.',
+        'Contributed to the redesign and optimization of both the company website and a client project, improving the UI/UX and reducing the bounce rate by 20%.'
+      ]
     },
-    {
-      title: 'Software Developer',
-      company: 'Digital Solutions Inc',
-      period: '2019 - 2021',
-      description: 'Developed and maintained web applications for various clients.',
-    },
+    // You can add your second experience here
   ];
 
   const resumeHighlights = [
@@ -212,7 +210,7 @@ export default function About() {
                     <h3 className="text-xl font-semibold">{exp.title}</h3>
                     <p className="text-blue-400">{exp.company}</p>
                     <p className="text-gray-400 text-sm">{exp.period}</p>
-                    <p className="text-gray-300 mt-2">{exp.description}</p>
+                    <p className="text-gray-300 mt-2">{exp.description.join('\n')}</p>
                   </motion.div>
                 ))}
               </div>
