@@ -80,18 +80,27 @@ export default function About() {
   const experiences = [
     {
       title: 'Frontend Developer Intern',
-      company: 'Infimind IT Solutions',
+      company: 'Ratnamace IT Solutions',
       period: 'Sept 2024 - Feb 2025',
       description: [
         'Developed and maintained responsive web interfaces using React.js HTML/CSS and Javascript, resulting in 35% improvement in user load speed and 25% increase in user engagement.',
         'Contributed to the redesign and optimization of both the company website and a client project, improving the UI/UX and reducing the bounce rate by 20%.'
       ]
     },
+    {
+      title: 'Full Stack Developer',
+      company: 'Agrawal Packers and Movers Ltd',
+      period: 'Feb 2025 - Present',
+      description: [
+        'Developed and maintained responsive web interfaces using React.js HTML/CSS and Javascript, resulting in 35% improvement in user load speed and 25% increase in user engagement.',
+        'Contributed to the redesign and optimization of both the company website and a client project, improving the UI/UX and reducing the bounce rate by 20%.'
+      ]
+    }
     // You can add your second experience here
   ];
 
   const resumeHighlights = [
-    'Over 5 years of experience in full-stack development',
+    'Over 2 years of experience in full-stack development',
     'Led multiple successful project deployments',
     'Strong background in modern web technologies',
     'Excellent problem-solving and communication skills',
