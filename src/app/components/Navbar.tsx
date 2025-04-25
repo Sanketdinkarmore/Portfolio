@@ -4,11 +4,10 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { SunIcon, MoonIcon } from '@heroicons/react/24/solid';
-import { useTheme } from '../context/ThemeContext';
+
 
 export default function Navbar() {
   const pathname = usePathname();
-  const { isDarkMode, toggleDarkMode } = useTheme();
 
   const navLinks = [
     { name: 'Home', href: '/' },
@@ -44,17 +43,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <button
-              onClick={toggleDarkMode}
-              className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300"
-              aria-label="Toggle dark mode"
-            >
-              {isDarkMode ? (
-                <SunIcon className="h-5 w-5" />
-              ) : (
-                <MoonIcon className="h-5 w-5" />
-              )}
-            </button>
+            
           </div>
         </div>
       </div>

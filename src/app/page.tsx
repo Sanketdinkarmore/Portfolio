@@ -2,11 +2,9 @@
 
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ThemeProvider } from './context/ThemeContext';
 
 export default function Home() {
   return (
-    <ThemeProvider>
       <main className="min-h-screen bg-white dark:bg-gray-900">
         <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -52,6 +50,5 @@ export default function Home() {
           </div>
         </section>
       </main>
-    </ThemeProvider>
   );
 }
