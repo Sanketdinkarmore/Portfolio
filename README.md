@@ -6,7 +6,6 @@ A modern, responsive portfolio website built with Next.js, TypeScript, and Tailw
 
 - 🎨 Modern and clean design with smooth animations
 - 📱 Fully responsive layout
-- 🌙 Dark mode support
 - 📝 Interactive About page with resume download
 - 💼 Project showcase
 - 📫 Contact form with email integration
