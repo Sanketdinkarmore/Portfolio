@@ -1,6 +1,6 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Portfolio',
-  description: 'My personal portfolio website',
+  title: 'Portfolio - Sanket More',
+  description: 'Full Stack Developer Portfolio',
 }; 
