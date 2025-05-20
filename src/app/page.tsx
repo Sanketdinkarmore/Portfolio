@@ -32,7 +32,7 @@ export default function Home() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            Hi, I'm{' '}
+            Hi, I&apos;m{' '}
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
               Sanket More
             </span>

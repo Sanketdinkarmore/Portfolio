@@ -131,7 +131,7 @@ export default function About() {
             <div>
               <h1 className="text-4xl font-bold mb-4">About Me</h1>
               <p className="text-gray-300 text-lg leading-relaxed">
-                I'm a passionate Full Stack Developer with over 5 years of experience in creating
+                I&apos;m a passionate Full Stack Developer with over 5 years of experience in creating
                 elegant, efficient, and user-friendly web applications. My journey in tech started
                 with a curiosity about how things work on the internet, and it has evolved into
                 a fulfilling career building digital solutions that make a difference.
